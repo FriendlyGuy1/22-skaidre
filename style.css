@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    padding: 4px 19px 14px 9px;
+}
+
+header {
+    height: 10%;
+    background-color: rgb(97, 97, 240);
+    border: solid 3px white;
+}
+
+.container {
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.hero {
+    width: 20%;
+    height: 35%;
+    background-color: rgb(228, 54, 54);
+    border: solid 3px white;
+}
+
+.sidebar {
+    width: 20%;
+    height: 65%;
+    background-color: rgb(214, 41, 214);
+    border: solid 3px white;
+}
+
+.main {
+    width: 80%;
+    height: 65%;
+    background-color: rgb(235, 111, 132);
+    border: solid 3px white;
+}
+
+.extra {
+    width: 80%;
+    height: 35%;
+    background-color: aqua;
+    border: solid 3px white;
+}
+
+
+.container2 {
+    height: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.image {
+    height: 100%;
+    width: 65%;
+    background-color: rgb(66, 168, 66);
+    border: solid 3px white;
+}
+.related {
+    height: 100%;
+    width: 35%;
+    background-color: rgb(139, 175, 67);
+    border: solid 3px white;
+}
+
+footer {
+    height: 15%;
+    background-color: burlywood;
+    border: solid 3px white;
+}
